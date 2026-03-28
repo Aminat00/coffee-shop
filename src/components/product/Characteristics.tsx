@@ -38,8 +38,8 @@ export function Characteristics({ product }: CharacteristicsProps) {
           </div>
         ))}
       </div>
-      <div className="flex flex-col">
-        <h3 className="font-heading text-2xl font-normal mb-4">Characteristics</h3>
+      <div className="flex flex-col gap-4">
+        <h3 className="font-heading text-2xl font-normal">Characteristics</h3>
         {characteristics.map((char) => (
           <div key={char.label} className="flex items-center justify-between py-3 border-b border-navy/[0.06]">
             <span className="text-sm text-text-light">{char.label}</span>

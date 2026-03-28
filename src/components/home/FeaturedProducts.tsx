@@ -11,15 +11,17 @@ export function FeaturedProducts() {
 
   return (
     <section className="section-padding bg-cream">
-      <SectionHeader
-        tag="Our Coffee"
-        title="Every cup is different, and so is every morning."
-        link={{ text: "View all coffees →", href: "/shop" }}
-      />
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
-        {featured.map((product) => (
-          <ProductCard key={product.id} product={product} />
-        ))}
+      <div className="flex flex-col gap-12 lg:gap-16">
+        <SectionHeader
+          tag="Our Coffee"
+          title="Every cup is different, and so is every morning."
+          link={{ text: "View all coffees →", href: "/shop" }}
+        />
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
+          {featured.map((product) => (
+            <ProductCard key={product.id} product={product} />
+          ))}
+        </div>
       </div>
     </section>
   );

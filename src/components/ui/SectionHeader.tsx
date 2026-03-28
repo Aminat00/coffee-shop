@@ -16,7 +16,7 @@ export function SectionHeader({
   titleColor = "text-text-dark",
 }: SectionHeaderProps) {
   return (
-    <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between mb-12 lg:mb-16">
+    <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
       <div className="flex flex-col gap-4">
         <span
           className={`text-xs font-semibold uppercase tracking-[4px] ${tagColor}`}
