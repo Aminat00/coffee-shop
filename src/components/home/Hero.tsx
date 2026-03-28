@@ -34,7 +34,7 @@ export function Hero() {
           {/* Main coffee bag */}
           <div className="relative w-64 h-96 lg:w-80 lg:h-[480px] z-10">
             <Image
-              src="/images/products/colombia-coffee-beans.webp"
+              src="/images/products-nobg/colombia-coffee-beans.png"
               alt="Colipse Coffee — Colombia Tolima"
               fill
               className="object-contain drop-shadow-2xl"

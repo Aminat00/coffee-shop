@@ -52,7 +52,7 @@ export const products: Product[] = [
     producerStory: "",
     category: ["espresso"],
     images: {
-      bag: "/images/products/blonde-espresso-beans.webp",
+      bag: "/images/products-nobg/blonde-espresso-beans.png",
       lifestyle: [],
     },
     sizes: [
@@ -85,7 +85,7 @@ export const products: Product[] = [
       "Grown in the lush highlands of Kerala, India, these Cherry Robusta beans are cultivated by smallholder farmers who have perfected natural processing methods over generations. The high altitude and tropical climate create a unique flavor profile that challenges everything you think you know about Robusta coffee.",
     category: ["single-origin"],
     images: {
-      bag: "/images/products/robusta-coffee-beans.webp",
+      bag: "/images/products-nobg/robusta-coffee-beans.png",
       lifestyle: [],
     },
     sizes: [
@@ -110,7 +110,7 @@ export const products: Product[] = [
     producerStory: "",
     category: ["blend"],
     images: {
-      bag: "/images/products/italian-roast-coffee-beans.webp",
+      bag: "/images/products-nobg/italian-roast-coffee-beans.png",
       lifestyle: [],
     },
     sizes: [
@@ -135,7 +135,7 @@ export const products: Product[] = [
     producerStory: "",
     category: ["espresso", "blend"],
     images: {
-      bag: "/images/products/italian-espresso-beans.webp",
+      bag: "/images/products-nobg/italian-espresso-beans.png",
       lifestyle: [],
     },
     sizes: [
@@ -160,7 +160,7 @@ export const products: Product[] = [
     producerStory: "",
     category: ["blend"],
     images: {
-      bag: "/images/products/arabica-coffee-whole-beans.webp",
+      bag: "/images/products-nobg/arabica-coffee-whole-beans.png",
       lifestyle: [],
     },
     sizes: [
@@ -195,7 +195,7 @@ export const products: Product[] = [
       "Ethiopia's Sidama region is one of the world's most celebrated coffee origins. At elevations exceeding 2,000 meters, local heirloom Sidamo varieties develop slowly, building extraordinary complexity. These beans are naturally processed and sun-dried by smallholder farmers who have cultivated coffee for centuries, preserving traditions that produce some of the most aromatic and complex coffees on earth.",
     category: ["single-origin"],
     images: {
-      bag: "/images/products/ethiopia-coffee-beans.webp",
+      bag: "/images/products-nobg/ethiopia-coffee-beans.png",
       lifestyle: [],
     },
     sizes: [
@@ -228,7 +228,7 @@ export const products: Product[] = [
       "Colombia's Tolima department sits in the heart of the Andes, where volcanic soil and high altitude create ideal growing conditions. Smallholder farmers cultivate Typica and Caturra varieties using traditional washed processing, followed by careful sun drying. The result is a clean, balanced cup that showcases the region's renowned chocolate and fruit notes.",
     category: ["single-origin"],
     images: {
-      bag: "/images/products/colombia-coffee-beans.webp",
+      bag: "/images/products-nobg/colombia-coffee-beans.png",
       lifestyle: [],
     },
     sizes: [
@@ -253,7 +253,7 @@ export const products: Product[] = [
     producerStory: "",
     category: ["blend"],
     images: {
-      bag: "/images/products/french-roast-coffee-grounds.webp",
+      bag: "/images/products-nobg/french-roast-coffee-grounds.png",
       lifestyle: [],
     },
     sizes: [
@@ -286,7 +286,7 @@ export const products: Product[] = [
       "In the volcanic highlands of Kintamani, Bali, coffee grows alongside citrus trees in a traditional agroforestry system. The region's unique wet-hulling process — followed by careful two-step sun drying — creates a flavor profile unlike any other origin. Bourbon, Typica, and Catimor varieties thrive at 1,200-1,600m, producing beans with extraordinary depth and an exotic character that captures the spirit of the island.",
     category: ["single-origin"],
     images: {
-      bag: "/images/products/bali-coffee-beans.webp",
+      bag: "/images/products-nobg/bali-coffee-beans.png",
       lifestyle: [],
     },
     sizes: [
@@ -319,7 +319,7 @@ export const products: Product[] = [
       "Sul de Minas is one of Brazil's most important coffee-producing regions, nestled in the southern highlands of Minas Gerais. The naturally processed Mundo Novo, Catuai, and Icatu varieties benefit from a distinct dry season that allows careful cherry drying on raised beds. The result is a clean, sweet cup that showcases Brazil's best qualities.",
     category: ["single-origin"],
     images: {
-      bag: "/images/products/brazil-coffee-beans.webp",
+      bag: "/images/products-nobg/brazil-coffee-beans.png",
       lifestyle: [],
     },
     sizes: [
@@ -344,7 +344,7 @@ export const products: Product[] = [
     producerStory: "",
     category: ["blend"],
     images: {
-      bag: "/images/products/breakfast-blend-coffee-beans.webp",
+      bag: "/images/products-nobg/breakfast-blend-coffee-beans.png",
       lifestyle: [],
     },
     sizes: [
@@ -371,7 +371,7 @@ export const products: Product[] = [
     producerStory: "",
     category: ["espresso", "blend"],
     images: {
-      bag: "/images/products/espresso-blend-coffee-grounds.webp",
+      bag: "/images/products-nobg/espresso-blend-coffee-grounds.png",
       lifestyle: [],
     },
     sizes: [
