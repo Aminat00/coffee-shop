@@ -36,7 +36,7 @@ export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
               { href: "/shop?category=single-origin", label: "Single Origin" },
               { href: "/shop", label: "Subscriptions" },
               { href: "#story", label: "Our Story" },
-              { href: "#", label: "About" },
+              { href: "/about", label: "About" },
               { href: "#", label: "FAQs" },
             ].map((link) => (
               <Link

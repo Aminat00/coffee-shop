@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/Button";
 export function Hero() {
   return (
     <section className="relative min-h-[85vh] flex items-center justify-center overflow-hidden bg-cream">
-      <div className="relative z-10 w-full flex flex-col items-center gap-1 px-6 py-16 lg:px-20 lg:py-12">
+      <div className="relative z-10 w-full flex flex-col items-center gap-6 px-6 py-16 lg:px-20 lg:py-12">
         {/* Top text content */}
         <div className="flex flex-col items-center gap-5 text-center">
           <span className="text-xs font-semibold uppercase tracking-[4px] text-navy">

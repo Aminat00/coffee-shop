@@ -1,10 +1,10 @@
 import { SectionHeader } from "@/components/ui/SectionHeader";
 
 const reviews = [
-  { text: "The freshness is unreal. You can taste the difference — knowing it was roasted days ago makes it even better.", name: "Jess L.", city: "Portland, OR", initials: "JL" },
-  { text: "I've tried countless subscriptions, but Colipse is different. The Colombia Tolima is my daily ritual now — smooth, rich, and perfectly balanced.", name: "Marco R.", city: "Chicago, IL", initials: "MR" },
-  { text: "Finally, coffee that lives up to the hype. The eco-packaging is a huge plus — great coffee without the guilt.", name: "Sarah A.", city: "Austin, TX", initials: "SA" },
-  { text: "The Ethiopia Sidama blew my mind. Floral notes I've never tasted in coffee before. This is what specialty means.", name: "David K.", city: "Seattle, WA", initials: "DK" },
+  { text: "The coffee was smooth but robust. Great tasting to the end of the cup.", name: "BS (Big Sarge)", city: "Google Reviewer", initials: "BS" },
+  { text: "The breakfast blend was perfect. Even my not so coffee lover wife liked it.", name: "Shawn", city: "Google Reviewer", initials: "S" },
+  { text: "Colipse coffee is delicious! I love that it's organic and also water process decaffeinated. The taste is smooth and flavorful — much better than other brands I have tried. I already placed and received my second order.", name: "Donna Schoenberger", city: "Google Reviewer", initials: "DS" },
+  { text: "Site is easy. Delivery is quick. Product is fresh. What more could someone want?", name: "Douglas Koszalka", city: "Google Reviewer", initials: "DK" },
   { text: "I switched from a big-name subscription and the difference is night and day. You can smell the freshness when you open the bag.", name: "Lisa M.", city: "Denver, CO", initials: "LM" },
   { text: "The French Roast is bold without being bitter. And free shipping? No brainer. Colipse is my go-to now.", name: "Ryan J.", city: "Brooklyn, NY", initials: "RJ" },
 ];

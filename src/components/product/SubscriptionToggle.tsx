@@ -34,6 +34,7 @@ export function SubscriptionToggle({ subscription, selectedSize }: SubscriptionT
             {mode === "subscribe" && <div className="w-2 h-2 bg-white rounded-full" />}
           </div>
           <span className="text-sm font-medium">Subscribe / {selectedSize.weight}</span>
+          <span className="text-[10px] font-bold uppercase tracking-wide bg-navy text-white rounded-full px-2 py-0.5">Save {subscription.discountPercent}%</span>
         </div>
         <div className="flex items-center gap-2">
           <span className="text-xs text-text-light line-through">${selectedSize.price.toFixed(2)}</span>
@@ -44,7 +45,7 @@ export function SubscriptionToggle({ subscription, selectedSize }: SubscriptionT
       {/* Frequency + benefits when subscribe selected */}
       {mode === "subscribe" && (
         <div className="flex flex-col gap-4 pl-8">
-          <select value={frequency} onChange={(e) => setFrequency(e.target.value)} className="w-full rounded-xl border-2 border-navy/10 bg-white px-4 py-3 text-sm focus:outline-none focus:border-navy transition-colors">
+          <select value={frequency} onChange={(e) => setFrequency(e.target.value)} className="w-full rounded-xl border-2 border-navy/10 bg-white px-4 pr-8 py-3 text-sm focus:outline-none focus:border-navy transition-colors appearance-none bg-[url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23555566%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E')] bg-no-repeat bg-[right_12px_center]">
             {subscription.frequencies.map((f) => (
               <option key={f} value={f}>{f}</option>
             ))}

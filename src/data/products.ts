@@ -15,7 +15,7 @@ const defaultGrinds = [
 
 const defaultSubscription = {
   available: true,
-  discountPercent: 10,
+  discountPercent: 5,
   frequencies: ["Every 2 weeks", "Every 3 weeks", "Every month", "Every 6 weeks"],
 };
 

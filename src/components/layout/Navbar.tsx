@@ -35,7 +35,7 @@ export function Navbar() {
             </span>
           </Link>
           <div className="flex items-center gap-6">
-            <Link href="#" className="hidden lg:block text-sm font-medium text-text-mid tracking-wide hover:text-navy transition-colors">
+            <Link href="/about" className="hidden lg:block text-sm font-medium text-text-mid tracking-wide hover:text-navy transition-colors">
               About
             </Link>
             <Link href="#" className="hidden lg:block text-sm font-medium text-text-mid tracking-wide hover:text-navy transition-colors">

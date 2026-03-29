@@ -10,7 +10,7 @@ const footerLinks = {
     { label: "Gift Cards", href: "#" },
   ],
   Company: [
-    { label: "Our Story", href: "#" },
+    { label: "Our Story", href: "/about" },
     { label: "Sustainability", href: "#" },
     { label: "Wholesale", href: "#" },
     { label: "Blog", href: "#" },
