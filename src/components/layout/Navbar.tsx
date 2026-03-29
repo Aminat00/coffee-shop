@@ -19,7 +19,7 @@ export function Navbar() {
             <Link href="/shop?category=single-origin" className="text-sm font-medium text-text-mid tracking-wide hover:text-navy transition-colors">
               Subscriptions
             </Link>
-            <Link href="#story" className="text-sm font-medium text-text-mid tracking-wide hover:text-navy transition-colors">
+            <Link href="/about" className="text-sm font-medium text-text-mid tracking-wide hover:text-navy transition-colors">
               Our Story
             </Link>
           </div>
@@ -35,12 +35,6 @@ export function Navbar() {
             </span>
           </Link>
           <div className="flex items-center gap-6">
-            <Link href="/about" className="hidden lg:block text-sm font-medium text-text-mid tracking-wide hover:text-navy transition-colors">
-              About
-            </Link>
-            <Link href="#" className="hidden lg:block text-sm font-medium text-text-mid tracking-wide hover:text-navy transition-colors">
-              FAQs
-            </Link>
             <button className="text-text-mid hover:text-navy transition-colors" aria-label="Account">
               <User size={20} />
             </button>

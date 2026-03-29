@@ -33,11 +33,8 @@ export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
           <nav className="flex flex-col gap-6">
             {[
               { href: "/shop", label: "Shop Coffee" },
-              { href: "/shop?category=single-origin", label: "Single Origin" },
               { href: "/shop", label: "Subscriptions" },
-              { href: "#story", label: "Our Story" },
-              { href: "/about", label: "About" },
-              { href: "#", label: "FAQs" },
+              { href: "/about", label: "Our Story" },
             ].map((link) => (
               <Link
                 key={link.label}
