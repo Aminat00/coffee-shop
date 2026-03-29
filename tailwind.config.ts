@@ -30,6 +30,7 @@ const config: Config = {
       fontFamily: {
         heading: ["var(--font-fraunces)", "Georgia", "serif"],
         body: ["var(--font-jakarta)", "system-ui", "sans-serif"],
+        logo: ["var(--font-montserrat)", "system-ui", "sans-serif"],
       },
       borderRadius: {
         "2xl": "16px",

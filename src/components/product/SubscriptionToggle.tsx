@@ -17,7 +17,7 @@ export function SubscriptionToggle({ subscription, selectedSize }: SubscriptionT
   return (
     <div className="flex flex-col gap-3">
       {/* One-time option */}
-      <button onClick={() => setMode("one-time")} className={`flex items-center justify-between w-full rounded-xl border-2 px-5 py-4 transition-all ${mode === "one-time" ? "border-navy bg-navy-pale/30" : "border-navy/10 hover:border-navy/30"}`}>
+      <button onClick={() => setMode("one-time")} className={`flex items-center justify-between w-full rounded-xl border-2 px-4 py-3 transition-all ${mode === "one-time" ? "border-navy bg-navy-pale/30" : "border-navy/10 hover:border-navy/30"}`}>
         <div className="flex items-center gap-3">
           <div className={`w-5 h-5 rounded-full border-2 flex items-center justify-center ${mode === "one-time" ? "border-navy bg-navy" : "border-navy/30"}`}>
             {mode === "one-time" && <div className="w-2 h-2 bg-white rounded-full" />}
@@ -28,7 +28,7 @@ export function SubscriptionToggle({ subscription, selectedSize }: SubscriptionT
       </button>
 
       {/* Subscribe option */}
-      <button onClick={() => setMode("subscribe")} className={`flex items-center justify-between w-full rounded-xl border-2 px-5 py-4 transition-all ${mode === "subscribe" ? "border-navy bg-navy-pale/30" : "border-navy/10 hover:border-navy/30"}`}>
+      <button onClick={() => setMode("subscribe")} className={`flex items-center justify-between w-full rounded-xl border-2 px-4 py-3 transition-all ${mode === "subscribe" ? "border-navy bg-navy-pale/30" : "border-navy/10 hover:border-navy/30"}`}>
         <div className="flex items-center gap-3">
           <div className={`w-5 h-5 rounded-full border-2 flex items-center justify-center ${mode === "subscribe" ? "border-navy bg-navy" : "border-navy/30"}`}>
             {mode === "subscribe" && <div className="w-2 h-2 bg-white rounded-full" />}

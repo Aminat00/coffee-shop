@@ -14,7 +14,7 @@ export function ImageGallery({ mainImage, productName }: ImageGalleryProps) {
 
   return (
     <div className="flex flex-col gap-4">
-      <div className="relative aspect-square bg-warm-gray rounded-2xl overflow-hidden flex items-center justify-center">
+      <div className="relative aspect-[5/6] bg-warm-gray rounded-2xl overflow-hidden flex items-center justify-center">
         <div className="relative w-3/4 h-3/4">
           <Image src={images[activeImage]} alt={productName} fill className="object-contain" priority sizes="(max-width: 1024px) 100vw, 50vw" />
         </div>
